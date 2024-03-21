@@ -1,0 +1,83 @@
+{
+  "workbench.colorTheme": "Min Dark",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "symbols",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  // "workbench.activityBar.location": "hidden",
+  // "workbench.statusBar.visible": false,
+  "workbench.layoutControl.enabled": false,
+
+  // "window.zoomLevel": 1,
+  "window.titleBarStyle": "custom",
+  "window.commandCenter": false,
+
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  // "breadcrumbs.enabled": false,
+
+  "extensions.ignoreRecommendations": true,
+
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.defaultProfile.linux": "fish",
+
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.minimap.autohide": true,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.formatOnSave": true,
+  "editor.tabCompletion": "on",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.addMissingImports": "always",
+    "source.removeUnusedImports": "always"
+  },
+  "[javascriptreact][javascript][typescriptreact][typescript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json][jsonc][html][css][less]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockerfile][dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.triggerExpansionOnTab": true,
+
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, package-lock*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.*": "postcss.config*",
+    ".env": ".env*",
+    "compose.*": ".dockerignore, Dockerfile",
+    "docker-compose.*": ".dockerignore, Dockerfile"
+  }
+}
